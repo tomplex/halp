@@ -23,6 +23,8 @@ Result:
         print(int('some string'))
     ValueError: invalid literal for int() with base 10: 'some string'
 
+`halp` conveniently swallows that nasty error, while providing some helpful feedback, and the original erorr message.
+
 Never manually search for a specific error again!
 
 ## TODO
