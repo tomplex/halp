@@ -27,6 +27,10 @@ Result:
 
 Never manually search for a specific error again!
 
+## Installation
+
+Unfortunately, this isn't yet available on pypi. For now, you'll need to `git clone https://github.com/tomplex/halp` and then run `python setup.py install` with the desired python distribution. Compatible with python 3+.
+
 ## TODO
 
 - return multiple links to specific answers
