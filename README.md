@@ -6,6 +6,8 @@ Sometimes we all need a little help. Sometimes, we're also too lazy to copy an e
 
 Use as a decorator:
 
+    from halp import halp
+     
     @halp
     def this_will_fail():
         print(int('some string'))
@@ -23,7 +25,7 @@ Result:
         print(int('some string'))
     ValueError: invalid literal for int() with base 10: 'some string'
 
-`halp` conveniently swallows that nasty error, while providing some helpful feedback, and the original erorr message.
+`halp` conveniently swallows that nasty error, while providing some helpful feedback, as well as the original erorr message.
 
 Never manually search for a specific error again!
 
@@ -35,6 +37,7 @@ Unfortunately, this isn't yet available on pypi. For now, you'll need to `git cl
 
 - return multiple links to specific answers
 - use as a context manager
+- other implementations?
 - who knows
 
 
